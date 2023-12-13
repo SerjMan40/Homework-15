@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-link {
+  @apply block py-1 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 transition duration-300;
+}
+.pagination-link {
+  @apply block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-indigo-100 hover:border-indigo-300 hover:text-indigo-800 transition duration-300;
+}
+.footer-link {
+  @apply block py-1 text-gray-500 hover:underline underline-offset-4 decoration-gray-700;
+}
