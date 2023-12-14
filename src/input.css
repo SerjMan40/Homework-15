@@ -11,3 +11,12 @@
 .footer-link {
   @apply block py-1 text-gray-500 hover:underline underline-offset-4 decoration-gray-700;
 }
+.article-img {
+  @apply w-44 h-44 opacity-75 object-cover order-first rounded-3xl hover:scale-110 transition duration-300;
+}
+.main-img-lg {
+  @apply absolute left-0 top-0 w-full h-full bg-gradient-to-tr from-indigo-800 via-transparent to-blue-400 hover:bg-gradient-to-br transition duration-300;
+}
+.main-img-sm {
+  @apply absolute left-0 top-0 w-full h-full bg-gradient-to-tr from-brown-800 via-transparent to-green-100 hover:bg-gradient-to-br transition duration-300;
+}
